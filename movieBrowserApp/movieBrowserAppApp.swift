@@ -9,9 +9,27 @@ import SwiftUI
 
 @main
 struct movieBrowserAppApp: App {
+    
+    @State var favourites: [Movie] = []
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+            TabView {
+
+                SearchView(favourites: $favourites)
+                    .tabItem {
+                        Image(systemName: "list.bullet")
+                        Text("Search")
+                    }
+                
+                FavouritesView(favourites: $favourites)
+                    .tabItem {
+                        Image(systemName: "heart.text.square")
+                        Text("Favourites")
+                    }
+            }
+                        
         }
     }
 }

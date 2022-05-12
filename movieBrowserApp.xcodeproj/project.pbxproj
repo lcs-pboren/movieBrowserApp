@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5055BB9282C101A00A28A3E /* ListMovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5055BB8282C101A00A28A3E /* ListMovieView.swift */; };
+		C5055BBB282C11F200A28A3E /* FavouritesButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5055BBA282C11F200A28A3E /* FavouritesButtonView.swift */; };
+		C5055BBD282C13A800A28A3E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5055BBC282C13A800A28A3E /* SearchView.swift */; };
+		C5055BBF282C160C00A28A3E /* FavouritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5055BBE282C160C00A28A3E /* FavouritesView.swift */; };
+		C5055BC1282C18ED00A28A3E /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5055BC0282C18ED00A28A3E /* MovieDetailView.swift */; };
+		C5055BC3282C1A3A00A28A3E /* PosterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5055BC2282C1A3A00A28A3E /* PosterView.swift */; };
 		C5DD1436282AA0D7003846CE /* movieBrowserAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DD1435282AA0D7003846CE /* movieBrowserAppApp.swift */; };
-		C5DD1438282AA0D8003846CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DD1437282AA0D8003846CE /* ContentView.swift */; };
 		C5DD143A282AA0E5003846CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5DD1439282AA0E5003846CE /* Assets.xcassets */; };
 		C5DD143D282AA0E5003846CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5DD143C282AA0E5003846CE /* Preview Assets.xcassets */; };
+		C5DD1445282AA1A8003846CE /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DD1444282AA1A8003846CE /* Movie.swift */; };
+		C5DD1447282AA1FE003846CE /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DD1446282AA1FE003846CE /* SearchResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C5055BB8282C101A00A28A3E /* ListMovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMovieView.swift; sourceTree = "<group>"; };
+		C5055BBA282C11F200A28A3E /* FavouritesButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesButtonView.swift; sourceTree = "<group>"; };
+		C5055BBC282C13A800A28A3E /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		C5055BBE282C160C00A28A3E /* FavouritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesView.swift; sourceTree = "<group>"; };
+		C5055BC0282C18ED00A28A3E /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
+		C5055BC2282C1A3A00A28A3E /* PosterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterView.swift; sourceTree = "<group>"; };
 		C5DD1432282AA0D7003846CE /* movieBrowserApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = movieBrowserApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5DD1435282AA0D7003846CE /* movieBrowserAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieBrowserAppApp.swift; sourceTree = "<group>"; };
-		C5DD1437282AA0D8003846CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C5DD1439282AA0E5003846CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5DD143C282AA0E5003846CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C5DD1444282AA1A8003846CE /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		C5DD1446282AA1FE003846CE /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				C5DD1435282AA0D7003846CE /* movieBrowserAppApp.swift */,
-				C5DD1437282AA0D8003846CE /* ContentView.swift */,
+				C5DD1443282AA196003846CE /* Model */,
 				C5DD1439282AA0E5003846CE /* Assets.xcassets */,
 				C5DD143B282AA0E5003846CE /* Preview Content */,
 			);
@@ -65,6 +79,21 @@
 				C5DD143C282AA0E5003846CE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C5DD1443282AA196003846CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5DD1444282AA1A8003846CE /* Movie.swift */,
+				C5DD1446282AA1FE003846CE /* SearchResult.swift */,
+				C5055BB8282C101A00A28A3E /* ListMovieView.swift */,
+				C5055BC2282C1A3A00A28A3E /* PosterView.swift */,
+				C5055BBA282C11F200A28A3E /* FavouritesButtonView.swift */,
+				C5055BBC282C13A800A28A3E /* SearchView.swift */,
+				C5055BBE282C160C00A28A3E /* FavouritesView.swift */,
+				C5055BC0282C18ED00A28A3E /* MovieDetailView.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +166,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5DD1438282AA0D8003846CE /* ContentView.swift in Sources */,
 				C5DD1436282AA0D7003846CE /* movieBrowserAppApp.swift in Sources */,
+				C5055BB9282C101A00A28A3E /* ListMovieView.swift in Sources */,
+				C5DD1447282AA1FE003846CE /* SearchResult.swift in Sources */,
+				C5055BBB282C11F200A28A3E /* FavouritesButtonView.swift in Sources */,
+				C5055BBD282C13A800A28A3E /* SearchView.swift in Sources */,
+				C5055BBF282C160C00A28A3E /* FavouritesView.swift in Sources */,
+				C5055BC1282C18ED00A28A3E /* MovieDetailView.swift in Sources */,
+				C5DD1445282AA1A8003846CE /* Movie.swift in Sources */,
+				C5055BC3282C1A3A00A28A3E /* PosterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
