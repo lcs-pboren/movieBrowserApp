@@ -25,14 +25,14 @@ struct MovieDetailView: View {
             
             HStack {
                 
-                PosterView(fromURL: URL(string: Movie.posterUrl)!)
+                PosterView(fromURL: URL(string: Movie.Poster)!)
                 
                 VStack(alignment: .leading) {
                     
-                    Text(Movie.movieName)
+                    Text(Movie.Title)
                         .font(.title)
                     
-                    Text(Movie.directorName)
+                    Text(Movie.Director)
                         .font(.subheadline)
                     
                 }
@@ -56,7 +56,7 @@ struct MovieDetailView: View {
                 .bold()
                 .padding(.top, 20)
             
-            Link("View Director", destination: URL(string: Movie.directorViewUrl)!)
+            Link("View Director", destination: URL(string: Movie.Director)!)
                 .padding(.top, 5)
             
 

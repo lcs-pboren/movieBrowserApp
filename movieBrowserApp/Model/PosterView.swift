@@ -31,7 +31,7 @@ struct PosterView: View {
 struct RemoteImageView_Previews: PreviewProvider {
     
     
-    static let example = URL(string: testMovie.posterUrl)!
+    static let example = URL(string: testMovie.Poster)!
     
     static var previews: some View {
         PosterView(fromURL: example)

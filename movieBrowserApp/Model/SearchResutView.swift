@@ -1,8 +1,8 @@
 //
-//  SearchResult.swift
+//  SearchResutView.swift
 //  movieBrowserApp
 //
-//  Created by Patrick Boren on 2022-05-10.
+//  Created by Patrick Boren on 2022-05-12.
 //
 
 import SwiftUI

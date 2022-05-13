@@ -31,7 +31,7 @@ struct FavouritesView: View {
                 } else {
 
                    
-                    List(favourites, id: \.imdbID) { currentMovie in
+                    List(favourites, id: \.ImdbID) { currentMovie in
                         
                         NavigationLink(destination: MovieDetailView(Movie: currentMovie, inFavourites: true, favourites: $favourites)) {
                             ListMovieView(Movie: currentMovie)

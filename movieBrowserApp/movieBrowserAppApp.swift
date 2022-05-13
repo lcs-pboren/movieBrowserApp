@@ -29,7 +29,7 @@ struct movieBrowserAppApp: App {
                         Text("Favourites")
                     }
             }
-                        
+                                
         }
     }
 }

@@ -17,9 +17,9 @@ struct ListMovieView: View {
 
         VStack(alignment: .leading) {
             
-            Text(Movie.movieName)
+            Text(Movie.Title)
             
-            Text(Movie.directorName)
+            Text(Movie.Director)
                 .font(.caption)
             
         }

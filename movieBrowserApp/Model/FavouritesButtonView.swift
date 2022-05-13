@@ -57,7 +57,8 @@ struct FavouritesButtonView: View {
             
         
             favourites.removeAll(where: { currentMovieInList in
-                currentMovieInList.imdbID == Movie.imdbID
+                currentMovieInList.ImdbID == Movie.ImdbID
+                
             })
             inFavourites = false
         }

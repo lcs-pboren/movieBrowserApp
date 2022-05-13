@@ -1,10 +1,3 @@
-//
-//  SearchView.swift
-//  movieBrowserApp
-//
-//  Created by Patrick Boren on 2022-05-11.
-//
-
 import SwiftUI
 
 struct SearchView: View {
@@ -28,7 +21,7 @@ struct SearchView: View {
                 VStack {
                     
 
-                    List(foundMovies, id: \.imdbID) { currentMovie in
+                    List(foundMovies, id: \.ImdbID) { currentMovie in
                         
                         NavigationLink(destination: MovieDetailView(Movie: currentMovie, inFavourites: false, favourites: $favourites)) {
                             ListMovieView(Movie: currentMovie)
